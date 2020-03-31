@@ -1,0 +1,61 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* { touch-action: pan-y; } 
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+.title {
+    font-weight: 600;
+}
+
+.report {
+    margin-top: 45px;
+}
+
+.search-button{
+    background: rgb(65, 139, 202);
+    color: white;
+}
+
+.report-body {
+    padding: 5px;
+}
+
+.pager {
+    margin-top: 5px;
+}
+
+.collapse-title {
+    color: rgba(0, 0, 0, 0.8)
+}
+.ivu-table th.iview-table {
+    background: rgb(56,144,230);
+    color: white;
+}
+.ivu-table .iview-table{
+    font-size: 11px;
+}
+.van-grid{
+    margin-bottom: 20px;
+}
+.manage {
+    width: 375px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
+  .manage-head {
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .head-input {
+    width: 220px;
+  }
